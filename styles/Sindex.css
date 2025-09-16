@@ -24,7 +24,7 @@ nav {
     background-image: linear-gradient(#6cd5f8, #fff);
     font-family: "Quicksand", sans-serif;
     color: #fff;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 .nav-bar {
@@ -43,7 +43,8 @@ nav {
     color: #FF9FF3;
     font-family: "Dancing Script", cursive;
 }
-.nav-bar i{
+
+.nav-bar i {
     display: none;
     padding: 9px 20px;
     font-size: 35px;
@@ -113,7 +114,8 @@ nav .login a:hover {
     font-size: 100px;
     margin-bottom: 15px;
 }
-.h1-dis{
+
+.h1-dis {
     display: none;
 }
 
@@ -127,7 +129,8 @@ nav .login a:hover {
     margin-bottom: 20px;
     font-family: "Nunito", sans-serif;
 }
-.p-dis{
+
+.p-dis {
     display: none;
 }
 
@@ -136,7 +139,7 @@ nav .login a:hover {
     color: #10ac84;
 }
 
-.hero_content a{
+.hero_content a {
     text-decoration: none;
     font-family: "Nunito", sans-serif;
     padding: 15px 30px;
@@ -146,6 +149,7 @@ nav .login a:hover {
     font-size: 20px;
     border-radius: 30px;
 }
+
 .hero_content button {
     font-family: "Nunito", sans-serif;
     padding: 15px 30px;
@@ -243,7 +247,7 @@ nav .login a:hover {
 form {
     display: flex;
     flex-direction: column;
-    padding:  50px 250px;
+    padding: 50px 250px;
 
 }
 
@@ -291,7 +295,7 @@ form ::placeholder {
     font-size: 50px;
 }
 
-.h2-dis{
+.h2-dis {
     display: none;
 }
 
@@ -453,7 +457,8 @@ form ::placeholder {
     border-radius: 10px;
 
 }
-.f-p-dis{
+
+.f-p-dis {
     display: none;
 }
 
@@ -471,90 +476,105 @@ form ::placeholder {
 .footer-custom .social-icons a:hover {
     color: #10ac84;
 }
- @media (max-width:1350px){
-    .hero_image{
+
+@media (max-width:1350px) {
+    .hero_image {
         display: none;
     }
-    .hero{
+
+    .hero {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .hero_content {
-    max-width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .hero_content h1 {
-    text-align: center;
-    font-size: 80px; 
-  }
-  .hero_content button{
-    margin-top: 20px;
-  }
- 
- }
-
- @media (max-width:1500px){
-    .contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    .form{
-    width: 70%;
-  }
 
- }
+    .hero_content h1 {
+        text-align: center;
+        font-size: 80px;
+    }
 
- @media (max-width:1050px){
-    .artist_container{
+    .hero_content button {
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width:1500px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .form {
+        width: 70%;
+    }
+
+}
+
+@media (max-width:1050px) {
+    .artist_container {
         flex-direction: column;
         align-items: center;
 
         /* height: 100%; */
     }
-    .artist{
+
+    .artist {
         width: 70%;
         margin: 20px 0px;
     }
-    nav .nav_links{
+
+    nav .nav_links {
         display: none;
     }
-    .nav-bar i{
+
+    .nav-bar i {
         display: block;
     }
-     .f-p-dis{
-    display: block;
-   }
-   .f-p-ena{
-    display: none;
-   }
- }
 
- @media (max-width:610px){
-    .h1-ena{
-       display: none;
+    .f-p-dis {
+        display: block;
     }
-   .h1-dis{
-    display: block;
-   }
-   .p-ena{
-    display: none;
-   }
 
-   .p-dis{
-    display: block;
-   }
-   .h2-dis{
-    display: block;
-   }
-   .h2-ena{
-    display: none;
-   }
-  
- }
+    .f-p-ena {
+        display: none;
+    }
+}
+
+@media (max-width:610px) {
+    .h1-ena {
+        display: none;
+    }
+
+    .h1-dis {
+        display: block;
+    }
+
+    .p-ena {
+        display: none;
+    }
+
+    .p-dis {
+        display: block;
+    }
+
+    .h2-dis {
+        display: block;
+    }
+
+    .h2-ena {
+        display: none;
+    }
+
+}
